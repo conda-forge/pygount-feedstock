@@ -1,5 +1,5 @@
 {% set name = "pygount" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pygount-{{ version }}.tar.gz
-  sha256: 2f4b064ac1689ba43bdf84bef244e7a45f27e315feae6fb19d1209c56a580361
+  sha256: 404068a91019a0d3e451dbdee4e78c39cc30a4700c2a10245337af64681a2376
 
 build:
   entry_points:
